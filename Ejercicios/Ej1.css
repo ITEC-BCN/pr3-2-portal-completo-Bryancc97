@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: red;
+}
+h2{
+    color: darkgray;
+    text-decoration: underline;
+}
+p span{
+    color: red;  
+}
+li{
+    list-style: upper-roman;
+}
+#Sinopsis{
+    color: gray;
+}
+#Actores{
+    color: rgb(73, 71, 71);
+}
+#Urls{
+    color: rgb(21, 21, 21);
+}
+.verde{
+    background-color: darkgreen;
+    color: rgb(162, 174, 162);
+}
+.azul{
+    background-color:aqua ;
+    color: blue;
+}
+.rojo{
+    background-color: red;
+    color: greenyellow;
+}
+.verdef{
+    background-color: greenyellow;
+    color: red;
+}
+a{
+    color: green;
+    text-decoration: none;
+}

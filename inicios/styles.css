@@ -1,0 +1,38 @@
+/*Pseudoclase :hover*/
+a:hover{
+    color: blueviolet;
+}
+/*PSeudoclase :nth-child pone de color los numeros impares de ul*/
+ul li:nth-child(odd){
+    background-color: #7613af69;
+    text-decoration: underline;
+}
+/*Pseudoclase :first-child y :last-child*/
+p:first-child{
+    font-weight:bold;
+}
+p:last-child{
+    color: darkgoldenrod;
+}
+/*Pseudoclase :focus*/
+input:focus{
+    outline: 15px solid #7613af69;
+}
+/*Pseudoclase ::before antes del elemento h1 muestra estrella*/
+h1::before{
+    content: "\1F31F ";
+}
+/*Pesudoclase ::after despues del eelemento icono*/
+h1::after{
+    content: "\1F31F ";
+}
+/*Pseudoelemento ::first-line*/
+p::first-line{
+    font-weight: bold;
+    color: blueviolet;
+}
+/*Pseudoelemento ::first-letter*/
+p::first-letter {
+    font-size: 4em;
+    color: rgba(103, 2, 140, 0.786);
+}

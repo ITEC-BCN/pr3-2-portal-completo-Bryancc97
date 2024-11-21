@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BryanC">
+    <meta name="description" content="Ejercio1HTML">
+    <meta name="keywords" content="html,css">
+    <link rel="icon" type="unage/xicon" href="imagenes/gorjeo.png">
+    <style>
+        /* items del menu */
+        #menu ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+        #menu ul li {
+        background-color:#000000;
+        }
+        /* enlaces del menu */
+        #menu ul a {
+            display:block;
+            color:#fff;
+            text-decoration:none;
+            font-weight:400;
+            font-size:15px;
+            padding:10px;
+            font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-transform:uppercase;
+            letter-spacing:1px;
+        }
+        /* items del menu */
+            #menu ul li {
+            position:relative;
+            float:left;
+            margin:0;
+            padding:0;
+            }
+        /* efecto al pasar el ratón por los items del menu */
+            #menu ul li:hover {
+            background:#8435b5;
+            }
+        .contenedor{
+            border: 2px yellow solid;
+            width: 200px;
+            height: 200px;
+            overflow: auto;
+        }
+        .contenedor2{
+            width: 200px;
+            height: 150px;
+            overflow: scroll;
+        }
+        .contenedor3{
+            border: 1px solid green;
+            overflow: visible;
+            width: 350px;
+            
+        }
+        .contenedor4{
+            border: 2px solid violet;
+            overflow-x: scroll ;
+            overflow-y: scroll;
+            width: 400px ;
+        }
+        .elementofijo{
+            /*position: fixed;*/
+            background-color: darkorchid;
+            width: 35%;
+            top: 50px;
+            right: 300px;
+        }
+        .elementofijo2{
+            /*position: sticky;*/
+            background-color: rgba(170, 83, 214, 0.6);
+            top: 0px;
+            padding:20px ;
+        }
+        body{
+            height: 2000px;
+        }
+        .contenedorp{
+            position: relative;
+            background-color: blueviolet;
+            padding: 20px;
+        }
+        .contenedor5{
+            background-color: chocolate;
+            height: 400px;
+        }
+        .elemento3{
+            position: absolute;
+            background-color: aquamarine;
+            padding: 80px;
+            top: 50px;
+            left: 10px;
+        }
+        .contenedor6{
+            background-color: #b555bc;
+            padding: 10px;
+            border: 2px black solid;
+        }
+        .izquierda{
+            background-color: rgb(97, 9, 94);
+            color:beige;
+            float: right;
+            width: 40%;
+            padding: 20px;
+            margin: 10px;
+        }
+        .derecha{
+            background-color: #956d1e;
+            color: beige;
+            float: left;
+            width: 40%;
+            padding: 10px;
+            margin: 10px;
+        }
+        .sin-clear{
+            background-color: #3c3879;
+            color: antiquewhite;
+            clear: both;
+        }
+        
+        
+    </style>
+    <title>BryanC</title>
+</head>
+<body>
+    <header class="elementofijo2">
+        <h1>M4 BryanC</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="youtube">Youtube</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+<h2>Primeros pasos</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor velit sodales purus gravida sodales. Praesent commodo sodales elit, in consequat metus maximus in. Integer dui tortor, tempor a dui ac, varius rhoncus lacus. Morbi lectus ante, egestas sed lacus vel, vulputate viverra diam. Pellentesque vestibulum sodales euismod. Proin ipsum justo, gravida sed augue non, scelerisque fringilla dolor. Pellentesque vitae tincidunt eros, sed commodo elit. Duis nec interdum justo, quis consectetur eros. Vivamus at elit sit amet nisl aliquam iaculis nec non sapien. Curabitur condimentum lacinia tempus. Nunc dapibus a leo ut mollis. Nam purus enim, commodo eget consectetur tincidunt, dictum ac lorem. Duis gravida vitae diam ut tincidunt. In quis ante tristique, laoreet eros quis, semper augue. Vestibulum euismod quis tellus vestibulum luctus.
+
+    </p>
+    </article>
+    <article>
+        <h3>Titulo con h3</h3>
+        <p>Praesent sed erat ac turpis accumsan eleifend. Suspendisse vitae ultrices mauris, at condimentum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac metus at eros iaculis luctus ut et nulla. Donec non pharetra nulla, nec finibus eros. Etiam justo purus, malesuada non arcu eget, auctor dapibus odio. Donec fringilla gravida diam ac imperdiet. Cras eget eros eu purus dignissim blandit eu vel risus. Aenean porta ex purus, et venenatis urna posuere vel. Duis porta ex id mauris ornare, a gravida risus blandit. Sed accumsan augue neque, eget dignissim nisl ornare non. Phasellus euismod nibh et augue mattis iaculis. Nam ullamcorper nunc at mauris vehicula, id ornare eros gravida.</p>
+    </article>
+    <article>
+        <h4>Titulo con h4</h4>
+        <p>Maecenas in massa finibus, pellentesque ligula vel, consequat tellus. Proin lobortis eros vitae sapien imperdiet scelerisque. Nullam accumsan lorem arcu, condimentum dignissim ipsum ultricies ac. Nullam laoreet efficitur vestibulum. Etiam congue mauris quis ligula dictum, eget tempus est finibus. Donec blandit mollis velit, eget vehicula purus mollis quis. Donec finibus magna hendrerit tortor laoreet elementum. In laoreet massa libero, vel facilisis dui mollis at. Quisque a tellus sit amet ex tempus tempus. Morbi dignissim augue a est pretium tincidunt.</p>
+    </article>
+<p>
+<h2>Positions: Ejemplos </h2>
+    <div class="contenedor">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+    </div>
+    
+        <p>
+            <div class="contenedor2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+            </div>
+        <p>
+            <div class="contenedor3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+            </div>
+        <p>
+            <div class="contenedor4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+            </div>
+        <p>
+            <div class="elementofijo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+            </div>
+        <p>
+            <div class="contenedorp">
+                <div class="contenedor5">
+                        <div class="elemento3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare felis eu elementum consectetur. Sed eros mauris, ultricies a convallis nec, vulputate nec arcu. Donec non sem elementum, laoreet tellus eget, ultrices justo. Ut ut ultrices sapien. Nullam ac porta sem. Vestibulum dui dolor, aliquet ut dignissim ut, vehicula in ex. Aliquam laoreet iaculis interdum. Nullam vulputate tempor eros. Donec dignissim ac enim et ultricies. Sed hendrerit aliquet risus a rutrum. Curabitur nulla mi, malesuada nec pharetra sed, commodo at diam. Sed at tincidunt odio. Vivamus lacus nulla, varius nec eros non, posuere faucibus leo.
+                        </div>
+                </div>
+            
+            </div>
+        <p>
+        <div class="contenedor6">
+            <div class="izquierda">Caja flotante izquierda</div>
+            <div class="derecha">Caja flotante derecha</div>
+            <div class="sin-clear">Este elemento deberia estar debajo, pero sin 'clear' se posiciona a continuacion si hay espacio</div>
+        </div>
+<p>
+    <footer>
+        <nav>
+            <ul><h2>Social Media</h2>
+                <li><a href="https://www.facebook.com" target="Facebook">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="Facebook">Instagram</a></li>
+                <li><a href="https://www.x.com" target="Facebook">xTwitter</a></li>
+            </ul>
+        <address>bryan.carrera.7e8@itb.cat</address>
+        </nav>
+    </footer>
+</body>
+</html>
