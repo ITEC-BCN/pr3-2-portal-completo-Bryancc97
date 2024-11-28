@@ -92,26 +92,3 @@ body {
 .galeria2:hover{
     border: 1px solid white;
 }
-/*Imagenes tamaño anchura:270px altura 400 px*/
-.galeria img{
-    width: 100%;
-    height: auto;
-}
-
-
-/*FOOTER  Y MENU FOOTER*/
-footer{
-    background-color: whitesmoke;
-    display: flex;
-}
-footer a{
-    width: 3%;
-}
-.redesicon{
-    width:30px;
-    
-}
-footer .texto{
-    margin: auto;
-    text-align: center;
-}
