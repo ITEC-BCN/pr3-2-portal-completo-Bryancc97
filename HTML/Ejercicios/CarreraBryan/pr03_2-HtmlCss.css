@@ -103,6 +103,8 @@ body {
 footer{
     background-color: whitesmoke;
     display: flex;
+    /*SOLUCIONAR DISTANCIA*/
+    margin-top: 800px;
 }
 footer a{
     width: 3%;
@@ -114,4 +116,12 @@ footer a{
 footer .texto{
     margin: auto;
     text-align: center;
+}
+/*PROXIMOS FESTIVALES*/
+aside{
+    float: right;
+}
+/*SERIES*/
+.series{
+    float: left ;
 }
