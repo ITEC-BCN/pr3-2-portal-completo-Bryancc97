@@ -19,14 +19,17 @@ body {
     top: 0;
     overflow: hidden;
 }
-#menu li{
+
+#menu li {
     display: inline-block;
 }
-#menu ul{
-    float:none;
+
+#menu ul {
+    float: none;
     text-align: center;
 }
-#menu li a{
+
+#menu li a {
     color: whitesmoke;
     border: 1px solid grey;
     border-radius: 15%;
@@ -36,36 +39,43 @@ body {
     text-decoration: none;
 }
 
-/* items del menu */
+/*ITEMS DEL MENU*/
 
 /* efecto al pasar el ratón por los items del menu */
-#menu  li a:hover {
+#menu li a:hover {
     color: whitesmoke;
     background: #8435b5;
 }
+
 /*GALERIA Y TAMAÑO IMAGENES DE GALERIA*/
-.peliculas{
-    display:flex;
+.peliculas {
+    display: flex;
     flex-direction: column;
 
 }
-.horizontal{
+
+.horizontal {
     display: flex;
+
 }
-.galeria{
+
+.galeria {
     margin: 5px;
     border: 1px solid black;
-    width: 175px;
+
 }
-.galeria:hover{
+
+.galeria:hover {
     border: 1px solid white;
 }
+
 /*Imagenes tamaño anchura:270px altura 400 px*/
-.galeria img{
+.galeria img {
     width: 100%;
     height: auto;
 }
-/*GALERIA ACTORES*/
+
+/*GALERIA ACTORES
 .actores{
     display:flex;
     flex-direction: column;
@@ -92,36 +102,42 @@ body {
 .galeria2:hover{
     border: 1px solid white;
 }
-/*Imagenes tamaño anchura:270px altura 400 px*/
+    */
+/*Imagenes tamaño anchura:270px altura 400 px
 .galeria img{
     width: 100%;
     height: auto;
+}*/
+
+/*PROXIMOS FESTIVALES*/
+aside {
+    float: right;
+}
+
+/*SERIES*/
+.series {
+    float: left;
 }
 
 
 /*FOOTER  Y MENU FOOTER*/
-footer{
+footer {
     background-color: whitesmoke;
     display: flex;
     /*SOLUCIONAR DISTANCIA*/
     margin-top: 800px;
 }
-footer a{
+
+footer a {
     width: 3%;
 }
-.redesicon{
-    width:30px;
-    
+
+.redesicon {
+    width: 30px;
+
 }
-footer .texto{
+
+footer .texto {
     margin: auto;
     text-align: center;
-}
-/*PROXIMOS FESTIVALES*/
-aside{
-    float: right;
-}
-/*SERIES*/
-.series{
-    float: left ;
 }

@@ -43,55 +43,7 @@ body {
     color: whitesmoke;
     background: #8435b5;
 }
-/*GALERIA Y TAMAÑO IMAGENES DE GALERIA*/
-.peliculas{
-    display:flex;
-    flex-direction: column;
 
-}
-.horizontal{
-    display: flex;
-}
-.galeria{
-    margin: 5px;
-    border: 1px solid black;
-    width: 175px;
-}
-.galeria:hover{
-    border: 1px solid white;
-}
-/*Imagenes tamaño anchura:270px altura 400 px*/
-.galeria img{
-    width: 100%;
-    height: auto;
-}
-/*GALERIA ACTORES*/
-.actores{
-    display:flex;
-    flex-direction: column;
-
-}
-.horizontal{
-    display: flex;
-}
-.galeria{
-    margin: 5px;
-    border: 1px solid black;
-    width: 175px;
-}
-.galeria:hover{
-    border: 1px solid white;
-}
-
-.galeria2{
-    margin: 5px;
-    border: 1px solid black;
-    float: left;
-    width: 175px;
-}
-.galeria2:hover{
-    border: 1px solid white;
-}
 /* FORMULARIO CSS*/
 .contact_form{	
 	width: 460px; 
@@ -212,4 +164,23 @@ p{
 .formulario textarea:focus{
 	outline:0;
 	border: 1px solid #97d848;
+}
+/*FOOTER  Y MENU FOOTER*/
+footer{
+    background-color: whitesmoke;
+    display: flex;
+    /*SOLUCIONAR DISTANCIA*/
+}
+footer a{
+    width: 3%;
+    margin-left: 20px;
+}
+.redesicon{
+    width:30px;
+    
+    
+}
+footer .texto{
+    margin: auto;
+    text-align: center;
 }
