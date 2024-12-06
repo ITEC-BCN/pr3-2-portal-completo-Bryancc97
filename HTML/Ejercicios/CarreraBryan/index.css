@@ -9,7 +9,7 @@ body {
 /*HEADER MENU Y LOGO */
 .logo {
     display: block;
-    width: 10%;
+    width: 5%;
     margin: auto;
 }
 
@@ -48,75 +48,109 @@ body {
 }
 
 /*GALERIA Y TAMAÑO IMAGENES DE GALERIA*/
+
 .peliculas {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
 }
 
 .horizontal {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 
 }
 
 .galeria {
-    margin: 5px;
     border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
 
+.imggaleria {
+    width: 100%;
+    height: auto;
+}
+
+.galeria a {
+    text-decoration: none;
 }
 
 .galeria:hover {
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
-/*Imagenes tamaño anchura:270px altura 400 px*/
-.galeria img {
-    width: 100%;
-    height: auto;
+article h3 {
+    background-color: #3a005e;
+    color: whitesmoke;
 }
 
-/*GALERIA ACTORES
-.actores{
-    display:flex;
-    flex-direction: column;
-
+/*ACTORES GALERIA DE ACTORES Y IMG*/
+.actores {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
 }
-.horizontal{
+
+.horizontal2 {
     display: flex;
-}
-.galeria{
-    margin: 5px;
-    border: 1px solid black;
-    width: 175px;
-}
-.galeria:hover{
-    border: 1px solid white;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
 }
 
-.galeria2{
-    margin: 5px;
-    border: 1px solid black;
-    float: left;
-    width: 175px;
+.galeria2 {
+    text-align: center;
+    color: whitesmoke;
 }
-.galeria2:hover{
-    border: 1px solid white;
+
+.galeria2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
 }
-    */
-/*Imagenes tamaño anchura:270px altura 400 px
-.galeria img{
+
+/*SERIES TOTALMENTE*/
+.series{
+    padding: 20px;
+}
+.horizontal3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+.galeria3{
+    text-align: center;
+    
+}
+.galeria3 img{
     width: 100%;
     height: auto;
-}*/
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*PROXIMOS FESTIVALES*/
 aside {
-    float: right;
-}
-
-/*SERIES*/
-.series {
+    display:flexbox;
     float: left;
+
 }
 
 
