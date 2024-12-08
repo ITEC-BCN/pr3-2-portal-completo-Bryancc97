@@ -1,7 +1,8 @@
 /*CSS que afecta a toda la pagina*/
 body {
-    background-color: rgba(146, 57, 230, 0.788);
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2hjbmQ0ZnEwcDNnbDNyODR4azRnZnplOXd1aDV6aHRtNmphZ2s2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i7KyJfayKHwExGK52H/giphy.gif);
+	background-size: 50%;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
