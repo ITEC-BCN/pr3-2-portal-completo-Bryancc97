@@ -1,0 +1,101 @@
+/*CSS que afecta a toda la pagina*/
+body {
+    background-color: rgba(146, 57, 230, 0.788);
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(../imagenes/peliculasgif.gif);
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER MENU Y LOGO */
+.logo {
+    display: block;
+    width: 5%;
+    margin: auto;
+}
+
+.headerlogo {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu ul {
+    float: none;
+    text-align: center;
+}
+
+#menu li a {
+    color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 15%;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 10px;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: whitesmoke;
+    background: #8435b5;
+}
+
+/*PELICULAS*/
+.peliculas {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+}
+h3{
+    background-color: gold;
+}
+
+.horizontal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+.galeria {
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+.imggaleria {
+    width: 100%;
+    height: auto;
+}
+
+/*FOOTER  Y MENU FOOTER*/
+footer {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+footer a {
+    width: 3%;
+}
+
+.redesicon {
+    width: 30px;
+
+}
+
+footer .texto {
+    margin: auto;
+    text-align: center;
+}

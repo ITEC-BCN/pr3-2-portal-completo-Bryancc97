@@ -119,8 +119,13 @@ article h3 {
 
 /*SERIES TOTALMENTE*/
 .series{
-    padding: 20px;
+    padding: 25px;
+    width: 70%;
+    height: 950px;
+    float: right;
+    background-color: rgb(88, 54, 107);
 }
+
 .horizontal3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -134,32 +139,31 @@ article h3 {
     width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*PROXIMOS FESTIVALES*/
-aside {
-    display:flexbox;
-    float: left;
-
+.galeria3 a{
+    color:whitesmoke;
+    text-decoration: none;
 }
-
+.galeria3 a:hover{
+    background-color: violet;
+    color: black;
+    border-radius: 5px;   
+}
+/*ASIDE*/
+aside {    
+    width: 504px;
+    height: 795px;
+    float: left;
+}
+aside img{
+    margin-left: 5px;
+}
 
 /*FOOTER  Y MENU FOOTER*/
 footer {
     background-color: whitesmoke;
     display: flex;
     /*SOLUCIONAR DISTANCIA*/
-    margin-top: 800px;
+    margin-top: 1000px;
 }
 
 footer a {
@@ -168,7 +172,6 @@ footer a {
 
 .redesicon {
     width: 30px;
-
 }
 
 footer .texto {

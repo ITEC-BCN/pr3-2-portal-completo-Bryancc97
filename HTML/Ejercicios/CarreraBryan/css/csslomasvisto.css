@@ -9,7 +9,7 @@ body {
 /*HEADER MENU Y LOGO */
 .logo {
     display: block;
-    width: 10%;
+    width: 5%;
     margin: auto;
 }
 
@@ -19,14 +19,17 @@ body {
     top: 0;
     overflow: hidden;
 }
-#menu li{
+
+#menu li {
     display: inline-block;
 }
-#menu ul{
-    float:none;
+
+#menu ul {
+    float: none;
     text-align: center;
 }
-#menu li a{
+
+#menu li a {
     color: whitesmoke;
     border: 1px solid grey;
     border-radius: 15%;
@@ -36,59 +39,37 @@ body {
     text-decoration: none;
 }
 
-/* items del menu */
+/*ITEMS DEL MENU*/
 
 /* efecto al pasar el ratón por los items del menu */
-#menu  li a:hover {
+#menu li a:hover {
     color: whitesmoke;
     background: #8435b5;
 }
-/*GALERIA Y TAMAÑO IMAGENES DE GALERIA*/
-.peliculas{
-    display:flex;
-    flex-direction: column;
 
-}
-.horizontal{
+
+
+
+
+
+/*FOOTER  Y MENU FOOTER*/
+footer {
+    background-color: whitesmoke;
     display: flex;
-}
-.galeria{
-    margin: 5px;
-    border: 1px solid black;
-    width: 175px;
-}
-.galeria:hover{
-    border: 1px solid white;
-}
-/*Imagenes tamaño anchura:270px altura 400 px*/
-.galeria img{
-    width: 100%;
-    height: auto;
-}
-/*GALERIA ACTORES*/
-.actores{
-    display:flex;
-    flex-direction: column;
-
-}
-.horizontal{
-    display: flex;
-}
-.galeria{
-    margin: 5px;
-    border: 1px solid black;
-    width: 175px;
-}
-.galeria:hover{
-    border: 1px solid white;
+    /*SOLUCIONAR DISTANCIA*/
+    margin-top: 800px;
 }
 
-.galeria2{
-    margin: 5px;
-    border: 1px solid black;
-    float: left;
-    width: 175px;
+footer a {
+    width: 3%;
 }
-.galeria2:hover{
-    border: 1px solid white;
+
+.redesicon {
+    width: 30px;
+
+}
+
+footer .texto {
+    margin: auto;
+    text-align: center;
 }

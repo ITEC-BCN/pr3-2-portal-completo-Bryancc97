@@ -9,7 +9,7 @@ body {
 /*HEADER MENU Y LOGO */
 .logo {
     display: block;
-    width: 10%;
+    width: 5%;
     margin: auto;
 }
 
@@ -19,14 +19,17 @@ body {
     top: 0;
     overflow: hidden;
 }
-#menu li{
+
+#menu li {
     display: inline-block;
 }
-#menu ul{
-    float:none;
+
+#menu ul {
+    float: none;
     text-align: center;
 }
-#menu li a{
+
+#menu li a {
     color: whitesmoke;
     border: 1px solid grey;
     border-radius: 15%;
@@ -36,10 +39,10 @@ body {
     text-decoration: none;
 }
 
-/* items del menu */
+/*ITEMS DEL MENU*/
 
 /* efecto al pasar el ratón por los items del menu */
-#menu  li a:hover {
+#menu li a:hover {
     color: whitesmoke;
     background: #8435b5;
 }
@@ -157,19 +160,18 @@ p{
 
 .formulario input:focus{
 	outline:0;
-	border: 1px solid #97d848;
+	border: 1px solid #4d0046;
 }
 
 
 .formulario textarea:focus{
 	outline:0;
-	border: 1px solid #97d848;
+	border: 1px solid #420044;
 }
 /*FOOTER  Y MENU FOOTER*/
 footer{
     background-color: whitesmoke;
     display: flex;
-    /*SOLUCIONAR DISTANCIA*/
 }
 footer a{
     width: 3%;
