@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 1 - Hello World JS</title>
+</head>
+
+<body>
+    <h1 id="titulo" atributoInventado="valorAtributo">Aprendiendo JavaScript</h1>
+    <p>Hola Mundo!</p>
+    <p id="importante">Adiós mundo <em>cruel</em></p>
+    <span class="importante2">Esto es muy importante</span>
+    <input type="text" id="user-input" value="Mete texto">
+    <script>
+        let titulo = document.getElementById("titulo");
+        console.log("Elemento con Id=titulo: " + titulo);
+        /**
+         * Con el titulo.nodeName en la consola del navegador
+         * mostrara la etiqueta que usamos para la id llamada titulo
+         * en este caso h1, sabemos 2 formas de mirarlo por ahora
+         * titulo.nodeName
+         * nombre del elemento + titulo.nodeName
+        */
+        console.log(titulo.nodeName);
+        console.log("Nombre del elemento: " + titulo.nodeName);
+        /**
+         * En la consola muestra lo que hay dentro de la etiqueta sin mostrar otras
+         * etiquetas que esten dentro
+        */
+        console.log(importante.textContent);
+        /**
+         * Muestra el texto html del elemento incluyendo otras etiquetas html
+        */
+        console.log(importante.innerHTML);
+        /**
+         * Muestra el html incluyendo la etiqueta del atributo desde el inicio hasta
+         * el final
+        */
+       console.log(importante.outerHTML);
+       /**
+        * Devuelve la propiedad 'value' de un input, como el input no cierra se usa
+        * value   
+       */
+       let input = document.getElementById("user-input"); 
+       console.log(input.value); 
+    </script>
+</body>
+
+</html>
