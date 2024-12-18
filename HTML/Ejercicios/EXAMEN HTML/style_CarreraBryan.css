@@ -1,0 +1,140 @@
+/*
+
+gris: ;
+lila: #503c53;
+lila_claro: #af87b5
+rosa: #c49a8f;
+    
+background-image: url("imagenes/paisaje.jpg");
+background-size: cover;
+
+font-family: "Lato", sans-serif;
+font-size: 16px;
+*/
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+/*HEADER Y MENU*/
+header{
+    background-color: #503c53;
+    overflow: hidden;
+}
+.logoimg{
+    width: 105px;
+    margin-left: 40px ;
+    float: left;
+}
+/*MENU*/
+#menu li{
+    display: inline-block;
+    
+}
+#menu ul{
+    float: none;
+    text-align: center;
+    
+}
+#menu li a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    border: 1px;
+    border-radius: 25%;
+    padding: 10px;
+    line-height: 100px;
+    text-decoration: none;
+    
+}
+#menu a:hover{
+    color: whitesmoke;
+    background-color: #af87b5;
+}
+/*PRIMER TEXTO*/
+.imgnosotros{
+    float: inline-start;
+    width: 250px;
+    height: 150px;
+    margin: 10px 10px 5px 10px;
+}
+.nosotrosp{
+    background-color: #af87b5;
+    height: 270px;
+    color: #4e4e4e ;
+    font-size: 16px;
+    
+}
+.h1nos{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+/*SEGUNDO TEXTO*/
+.comunidad{
+    background-image: url("imagenes/montanas.jpg");
+    height: 450px;
+    background-size: cover;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.h1com{
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+.cuadroc{
+    color: whitesmoke;
+    background-color: #503c53;
+    display: block;
+    width: 550px;
+    height: 160px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    padding: 30px 10px 10px 10px;
+}
+button{
+    background-color:#af87b5;
+    color: whitesmoke;
+    
+}
+/*GALERIA FINAL*/
+.horizontal{
+    display: flex;
+}
+.imgaleria{
+    width: 250px;
+    height: 300px;
+}
+.galeria{
+    background-color: #af87b5;
+    padding-left: 65px;
+    padding-left: 65px;
+    color: #4e4e4e;
+    text-align: center;
+}
+.galeria a{
+    color: #4e4e4e;
+    text-transform: uppercase;
+}
+.galeria a:hover{
+    background-color: #503c53;
+    color: whitesmoke;
+}
+h2{
+    color: whitesmoke;
+}
+
+/*FOOTER*/
+footer{
+    padding-top: 15px;
+    background-color: #503c53;
+    color: whitesmoke;
+}
+.derecha{
+    text-align: right;
+    background-color: #503c53;
+}
+.derecha a{
+    color: whitesmoke;
+}
