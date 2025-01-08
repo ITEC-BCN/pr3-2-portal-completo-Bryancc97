@@ -50,4 +50,10 @@ let botonTeclado = document.createElement('p');
 botonTeclado.innerHTML = i;
 botonTeclado.className = "botonNumero";
 contenedor.appendChild(botonTeclado)
+
+botonTeclado.addEventListener("click", () => handleKeyClick(i));
+
+function handleKeyClick(i){
+
+}
 }
