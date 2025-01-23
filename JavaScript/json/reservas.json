@@ -1,0 +1,11 @@
+{
+    notificacions: [
+        {
+            "id_reserva": "21",
+            "id_usuari": "1",
+            "tipus": "reserva confirmada",
+            "missatge": "La teva reserva ha estat confirmada",
+            "data": "2025-01-01"
+        }
+    ]
+}
