@@ -43,4 +43,4 @@ function intercambioletras(texto){
 }
 
 // Ejemplos de uso
-console.log(intercambioletras("asdasdasd"))
+console.log(intercambioletras("tirada"));
