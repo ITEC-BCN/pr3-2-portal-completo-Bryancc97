@@ -16,4 +16,3 @@ importeTotalElement.textContent = tvSamsung.getImporte2();
 
 console.log(tvSamsung.getImporte()); 
 console.log(tvSamsung.getImporte2());
- 
