@@ -30,28 +30,30 @@ function sumarPares() {
 
 console.log(sumarPares());
 
+
 /*Ejercicio 2 */
 function ordenDatos(datos) {
 
-    const nombre = datos[5];
-    const apellido = datos[0];
-    
-    //Notas convertidas a numeros 
-    const notas = datos.slice(1, 5).map(Number);
-    
-    // Calcular la nota media 
-    const sumaNotas = notas.reduce((acc, nota) => acc + nota, 0);
-    const notaMedia = sumaNotas / notas.length;
-    
-    //Array Ordenada
-    const resultado = [nombre, apellido, notaMedia];
-    
-    // Devolvemos el resultado como una cadena separada por comas
-    return resultado.join(',');
-  }
+  let nombre = datos[5];
+  let apellido = datos[0];
   
-  console.log(ordenDatos(["Rodriguez", "8", 9, '5', 4, 'Clara'])); 
-  console.log(ordenDatos(["apasdasd", "8", 9, '5', 4, 'nombrenombrenombre'])); 
+  //Notas convertidas a numeros 
+  let notas = datos.slice(1, 5).map(Number);
+  
+  // Calcular la nota media 
+  let sumaNotas = notas.reduce((acc, nota) => acc + nota, 0);
+  let notaMedia = sumaNotas / notas.length;
+  
+  //Array Ordenada
+  let resultado = [nombre, apellido, notaMedia];
+  
+  // Devolvemos el resultado separado por ','
+  return resultado.join(',');
+}
+
+console.log(ordenDatos(["Rodriguez", "8", 9, '5', 4, 'Clara'])); 
+console.log(ordenDatos(["apasdasd", "8", 9, '5', 4, 'nombrenombrenombre'])); 
+
 
 /*Ejercicio 3 */
 function filtroletra(letra){
