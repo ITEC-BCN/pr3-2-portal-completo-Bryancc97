@@ -12,7 +12,8 @@ const propiedadesTelevisor = ["Resolucion", "Tamaño", "SmartTV", "HDMI", "USB",
 propiedadesTelevisor.forEach(propiedad => {
   if (!tvSamsung.hasOwnProperty(propiedad)) {
       const valor = prompt(`Introduce el valor para "${propiedad}":`);
-      tvSamsung[propiedad] = valor || "default value"; // Si el usuario no introduce nada, se asigna "default value"
+      //default value si no se añade nada 
+      tvSamsung[propiedad] = valor || "default value";
   }
 });
 // Método para mostrar toda la información del televisor
