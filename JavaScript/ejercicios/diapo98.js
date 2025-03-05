@@ -11,3 +11,13 @@ function reducev2(nota, suma){
 }
 
 console.log(media) 
+
+//Calcula la primera nota superior a 5
+let notaSuperior5 = notas.find(nota => nota > 5)
+
+console.log(notaSuperior5)
+
+//Las notas son sobre 10, cambialas a sobre 20
+let notasSobre20 = notas.map(nota => nota*2)
+
+console.log(notasSobre20)
