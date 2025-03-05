@@ -21,7 +21,20 @@ var coches = [
 ];
 
 //Devuelve los veiculos de la marca que no sea ni 'Alfa Romeo' ni 'Kia' que tenga mas de 20 años
+//Funcion ordinaria 
+
 function cochesAntiguos(marca){
-    return coches.filter(coche => coche[0] !== 'Alfa Romeo' && coche[0] !== 'Kia' && coche[2] < 2000);
+   return coches.filter(function (car){
+    const marca = car[0];
+    const year = car[2];
+    return marca !== 'Alfa Romeo' && marca !== 'Kia' && new Date().getFullYear - year > 20;
+
+   });
 }
-console.log(cochesAntiguos('BWM'));
+
+//Funcion anonima
+const cocheAntiguoanonima = function(){
+    return coches.filter(function (car){
+        return car[0] !== 'Alfa Romeo' && car[0] !== 'Kia' && new Date().getFullYear - car[2] > 20;
+    });
+};
