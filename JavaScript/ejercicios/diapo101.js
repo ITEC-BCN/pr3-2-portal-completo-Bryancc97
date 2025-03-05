@@ -20,3 +20,8 @@ var coches = [
     ["Mercedes","Calse D",2011,21221]  
 ];
 
+//Devuelve los veiculos de la marca que no sea ni 'Alfa Romeo' ni 'Kia' que tenga mas de 20 años
+function cochesAntiguos(marca){
+    return coches.filter(coche => coche[0] !== 'Alfa Romeo' && coche[0] !== 'Kia' && coche[2] < 2000);
+}
+console.log(cochesAntiguos('BWM'));
